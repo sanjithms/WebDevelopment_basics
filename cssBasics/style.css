@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+#p2{
+    font-size: 30px;
+    color: brown ;
+    font-weight: 300;
+    background-color: yellow;
+    display: inline;
+}
+.main h2,.main p{
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+    border: 5px solid red   ;
+    margin: 20px;
+    padding: 20px;
+}
+.box p{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    position: relative;
+    left: 20px;
+    background-color: brown;
+    
+}
+#dis{
+    width: 500px;
+    background-color: violet;
+    display:block;
+}

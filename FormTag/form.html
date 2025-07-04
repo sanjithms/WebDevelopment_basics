@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Tag</h1>
+    <form action="#" method="post">
+        <h2>Details</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"> <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required> <br><br>
+        <label for="number">Phone Number</label>
+        <input type="number" id="num" name="number"><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="pass" name="password" ><br><br>
+        <textarea name="message" id="message" rows="5" placeholder="Enter your Text here"></textarea>
+        
+    
+    <h2>Color</h2>
+    <p>Chose your favorite color</p>
+    <input type="radio" id="red" name="color" value="red">
+    <label for="red">Red</label><br><br>
+    <input type="radio" id="blue" name="color" value="Blue">
+    <label for="Blue">Blue</label><br><br>
+    <input type="radio" id="green" name="color" value="Green">
+    <label for="Blue">Green</label><br><br>
+     <h2>Country</h2><br>
+     <label for="country">Country:</label>
+     <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="china">China</option>
+     </select><br><br>
+     <input type="submit" value="submit">
+     </form>
+     
+</body>
+</html>

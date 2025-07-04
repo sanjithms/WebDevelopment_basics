@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Passenger Booking Form</title>
+  <link rel="stylesheet" href="passengerform.css">
+</head>
+<body>
+
+  <h1>Passenger Booking Form</h1>
+
+  <form action="#" method="post">
+    <h2>Passenger Details</h2>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required>
+
+    <label>Gender</label>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male" style="display:inline;">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female" style="display:inline;">Female</label>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other" style="display:inline;">Other</label>
+
+    <label for="phone">Phone Number</label>
+    <input type="number" id="phone" name="phone" required>
+
+    <label for="email">Email ID</label>
+    <input type="email" id="email" name="email" required>
+
+    <h2>Travel Information</h2>
+    <label for="from">From</label>
+    <input type="text" id="from" name="from" required>
+
+    <label for="to">To</label>
+    <input type="text" id="to" name="to" required>
+
+    <label for="class">Class</label>
+    <select id="class" name="class" required>
+      <option value="">--Select Class--</option>
+      <option value="Economy">Economy</option>
+      <option value="Business">Business</option>
+      <option value="First Class">First Class</option>
+    </select>
+
+    <label for="message">Special Requirements</label>
+    <textarea name="message" id="message" rows="3" placeholder="Allergy, wheelchair, food preference, etc."></textarea>
+
+    <input type="submit" value="Book Now">
+  </form>
+
+  <div class="main">
+    <h2>Travel Reminder</h2>
+    <p>Make sure to carry your ID proof and arrive at the station/airport at least 45 minutes before departure.</p>
+  </div>
+
+  <div id="dis">Your journey is about to begin. Safe travels!</div>
+
+</body>
+</html>
