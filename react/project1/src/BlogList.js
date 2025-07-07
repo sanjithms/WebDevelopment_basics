@@ -5,6 +5,7 @@ import React from 'react';
 const BlogList = (props) => {
   const b=props.b;
   const title=props.title;
+  const handleDelete=props.ha
   console.log(title);
   console.log(b);
   
@@ -16,6 +17,7 @@ const BlogList = (props) => {
           <p>{b2.body}</p>
           <p><strong>{b2.origin}</strong></p>
           <p>{title}</p>
+          <button onClick={() => handleDelete(b2.id)}>Delete blog</button>
         </div>
       ))}
     </div>
