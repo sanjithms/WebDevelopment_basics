@@ -87,3 +87,35 @@
 .blog-preview p {
   color: #666;
 }
+.create {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.create label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.create button {
+  background: aquamarine;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
