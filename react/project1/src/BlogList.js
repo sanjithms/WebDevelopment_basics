@@ -12,7 +12,7 @@ const BlogList = (props) => {
   return (
     <div className="blog-list">
       {b.map(b2 => (
-        <div className="blog_preview" key={b2.id}>
+        <div className="blog-preview" key={b2.id}>
           <h3>{b2.title}</h3>
           <p>{b2.body}</p>
           <p><strong>{b2.origin}</strong></p>
